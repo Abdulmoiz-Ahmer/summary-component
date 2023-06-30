@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="container__cards">
+        <aside class="container__cards__left">
+          <em class="container__cards__left__heading"> Your Result</em>
+          <div class="container__cards__left__circle">
+            <em class="container__cards__left__circle__marks">76</em>
+            <h3 class="container__cards__left__circle__total__marks">of 100</h3>
+          </div>
+          <em class="container__cards__left__sub_heading">Great</em>
+          <p class="container__cards__left__description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </aside>
+        <aside class="container__cards__right">
+          <em class="container__cards__right__heading">Summary</em>
+          <div class="container__cards__right__mini-card">
+            <div class="container__cards__right__mini-card__left-side">
+              <figure>
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="electric shock icon"
+                />
+              </figure>
+              Reaction
+            </div>
+            <div class="container__cards__right__mini-card__right-side">
+              <span
+                class="container__cards__right__mini-card__right-side__marks"
+                >80</span
+              >
+              <span
+                class="container__cards__right__mini-card__right-side__total_marks"
+                >/ 100</span
+              >
+            </div>
+          </div>
+          <div class="container__cards__right__mini-card">
+            <div class="container__cards__right__mini-card__left-side">
+              <figure>
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="electric shock icon"
+                />
+              </figure>
+              Memory
+            </div>
+            <div class="container__cards__right__mini-card__right-side">
+              <span
+                class="container__cards__right__mini-card__right-side__marks"
+                >92</span
+              >
+              <span
+                class="container__cards__right__mini-card__right-side__total_marks"
+                >/ 100</span
+              >
+            </div>
+          </div>
+          <div class="container__cards__right__mini-card">
+            <div class="container__cards__right__mini-card__left-side">
+              <figure>
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="electric shock icon"
+                />
+              </figure>
+              Verbal
+            </div>
+            <div class="container__cards__right__mini-card__right-side">
+              <span
+                class="container__cards__right__mini-card__right-side__marks"
+                >61</span
+              >
+              <span
+                class="container__cards__right__mini-card__right-side__total_marks"
+                >/ 100</span
+              >
+            </div>
+          </div>
+          <div class="container__cards__right__mini-card">
+            <div class="container__cards__right__mini-card__left-side">
+              <figure>
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="electric shock icon"
+                />
+              </figure>
+              Visual
+            </div>
+            <div class="container__cards__right__mini-card__right-side">
+              <span
+                class="container__cards__right__mini-card__right-side__marks"
+                >72</span
+              >
+              <span
+                class="container__cards__right__mini-card__right-side__total_marks"
+              >
+                / 100</span
+              >
+            </div>
+          </div>
+          <button class="continue-button">Continue</button>
+        </aside>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abdulmoiz Ahmer</a>.
+    </div>
+  </body>
+</html>
